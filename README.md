@@ -10,13 +10,14 @@ models, explainers and libraries for Dictionary Learning With Sparse Autoencoder
 
 - [Contents](#contents)
 - [About](#about)
-- [Theory](#theory)
+- [Architecture \& Theory](#architecture--theory)
 - [Motivating Results](#motivating-results)
 - [Applications](#applications)
 - [Training Notes \& Intuitions](#training-notes--intuitions)
 - [Open Source Libraries](#open-source-libraries)
 - [AI Safety](#ai-safety)
-- [Scaling Laws](#scaling-laws)
+- [Scaling Up \& Scaling Laws](#scaling-up--scaling-laws)
+- [Trained Autoencoders](#trained-autoencoders)
 
 ## About
 
@@ -35,12 +36,12 @@ others in the community would benefit from 🤗
 
 <!-- Ordered by topic, then date published -->
 
-## Theory
+## Architecture & Theory
 
 🧑‍🍳 🌟 **[TITLE], [LAB]: [AUTHORS] ([YEAR])**
-[pdf]([LINK])
-[blog]([LINK])
-[code]([LINK])
+[pdf]([LINK]),
+[blog]([LINK]),
+[code]([LINK]),
 [demo]([LINK])
 
 > [EXPLANATION]
@@ -49,6 +50,8 @@ others in the community would benefit from 🤗
 
 
 ## Applications
+
+Linus - https://x.com/thesephist/status/1747099907016540181
 
 ## Training Notes & Intuitions
 
@@ -61,7 +64,9 @@ others in the community would benefit from 🤗
 
 <!-- Explainer -->
 
-## Scaling Laws
+## Scaling Up & Scaling Laws
+
+## Trained Autoencoders
 
 
 <!-- ## Other -->
