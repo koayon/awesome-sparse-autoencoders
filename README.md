@@ -87,6 +87,11 @@ Golden Gate Claude
 Circuits Updates Anthropic
 Also DeepMind
 
+**Training Tricks for 1-Layer SAEs, Conmy (2023)**
+[blog](https://www.lesswrong.com/posts/fifPCos6ddsmJYahD/my-best-guess-at-the-important-tricks-for-training-1l-saes)
+
+> The most important things to get right seem to be the SAE width, resampling procedure, and the learning rate. They also suggest that rewarming up the learning rate after resampling is valuable.
+
 ## Open Source Libraries
 
 🌟 **Dictionary Learning, Cavendish Labs: Ayonrinde et al (2023)**
