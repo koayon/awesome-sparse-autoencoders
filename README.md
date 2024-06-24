@@ -84,6 +84,11 @@ others in the community would benefit from 🤗
 
 ## Motivating Results
 
+🌟 **Transformer Visualisation via Dictionary Learning FAIR: Yun et al (2021)**
+[pdf](https://arxiv.org/pdf/2103.15949)
+
+> An early attempt to break down embeddings into components. A useful paper for understanding how the Interpretability literature fits into previous research.
+
 ## Safety Applications
 
 ## Non-Safety Applications
