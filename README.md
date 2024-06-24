@@ -48,6 +48,11 @@ others in the community would benefit from 🤗
 
 > [EXPLANATION]
 
+**Prism, Notion: Linus Lee (2024)**
+[pdf](https://thesephist.com/posts/prism/?)
+
+> Linus Lee's strategy for training Sparse Autoencoders. The main ideas are similar but he approaches the problem from a different angle, focusing on building tools for thought and debugging models.
+
 **Group Sparse Autoencoders, Harvard: Theodosis et al (2024)**
 [pdf](https://crisp.seas.harvard.edu/files/papers/TheodosisBa_SilhouetteLearning_ICASSP23.pdf)
 
