@@ -48,6 +48,11 @@ others in the community would benefit from 🤗
 
 > [EXPLANATION]
 
+**Group Sparse Autoencoders, Harvard: Theodosis et al (2024)**
+[pdf](https://crisp.seas.harvard.edu/files/papers/TheodosisBa_SilhouetteLearning_ICASSP23.pdf)
+
+> The authors show that by grouping features together in the sparsity constraint they're better able to learn features which naturally compose together. They test on image datasets but this could be applied to language models too.
+
 🧑‍🍳 🌟 **Scaling Sparse Autoencoders, OpenAI: Gao et al (2024)**
 [pdf](https://cdn.openai.com/papers/sparse-autoencoders.pdf)
 [blog](https://openai.com/index/extracting-concepts-from-gpt-4/)
@@ -63,7 +68,7 @@ others in the community would benefit from 🤗
 > the speed of training all SAEs - this is a great service to the community! (They use TransformerLens for
 > activation caching).
 
-🧑‍🍳 🌟 **Gated Sparse Autoencoders, DeepMind: Rajamanoharan et al (2024)**
+🌟 **Gated Sparse Autoencoders, DeepMind: Rajamanoharan et al (2024)**
 [pdf](https://arxiv.org/pdf/2404.16014)
 
 > To address the shrinkage problem in SAEs, DeepMind introduce a gating mechanism
