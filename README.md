@@ -122,6 +122,11 @@ Also DeepMind
 
 ## Trained Autoencoders
 
+**Pythia Features, Northeastern: Marks et al (2023)**
+[blog](https://www.alignmentforum.org/posts/AaoWLcmpY3LKvtdyq/some-open-source-dictionaries-and-dictionary-learning)
+
+> One of the first open source SAE dictionaries available. Released alongside training code.
+
 ## Other
 
 **Not All Language Model Features Are Linear, MIT: Engels et al (2024)**
