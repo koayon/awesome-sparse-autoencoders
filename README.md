@@ -149,6 +149,16 @@ Also DeepMind
 
 ## Other
 
+**Using AI to Augment Human Intelligence, Google Brain: Carter & Nielsen (2017)**
+[website](https://distill.pub/2017/aia/)
+
+> A paper which thinks about how representations that can be manipulated are useful for humans. This is interesting to think about the applications of SAEs beyond enumerative safety.
+
+**How To Report Better SAE Performance, Bostock (2024)**
+[blog](https://www.lesswrong.com/posts/fhffkfJv9zYPeP3uJ/how-to-better-report-sparse-autoencoder-performance)
+
+> The author suggests that to present the SAE Pareto frontier more clearly (i.e. the trade-off between sparsity and reconstruction error) it's beneficial to git a Hill curve.
+
 **Not All Language Model Features Are Linear, MIT: Engels et al (2024)**
 [pdf](https://arxiv.org/pdf/2405.14860)
 
