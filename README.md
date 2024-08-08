@@ -12,18 +12,15 @@ models, explainers and libraries for Dictionary Learning With Sparse Autoencoder
 - [About](#about)
 - [Architecture \& Theory](#architecture--theory)
 - [Motivating Results](#motivating-results)
-- [Safety Applications](#safety-applications)
-- [Non-Safety Applications](#non-safety-applications)
 - [Training Notes \& Intuitions](#training-notes--intuitions)
 - [Open Source Libraries](#open-source-libraries)
-- [AI Safety](#ai-safety)
 - [Scaling Up \& Scaling Laws](#scaling-up--scaling-laws)
 - [Trained Autoencoders](#trained-autoencoders)
 - [Other](#other)
 
 ## About
 
-`Dictionary Learning with Sparse Autoencoders (SAEs)` is a technique which ...
+`Dictionary Learning with Sparse Autoencoders (SAEs)` is a technique for disentangling the intermediate neural activations into more monosemantic representations for interpretability and steering.
 
 ---
 
@@ -40,23 +37,18 @@ others in the community would benefit from 🤗
 
 ## Architecture & Theory
 
-🧑‍🍳 🌟 **[TITLE], [LAB]: [AUTHORS] ([YEAR])**
+<!-- 🧑‍🍳 🌟 **[TITLE], [LAB]: [AUTHORS] ([YEAR])**
 [pdf]([LINK]),
 [blog]([LINK]),
 [code]([LINK]),
 [demo]([LINK])
 
-> [EXPLANATION]
+> [EXPLANATION] -->
 
 **Prism, Notion: Linus Lee (2024)**
 [pdf](https://thesephist.com/posts/prism/?)
 
 > Linus Lee's strategy for training Sparse Autoencoders. The main ideas are similar but he approaches the problem from a different angle, focusing on building tools for thought and debugging models.
-
-**Group Sparse Autoencoders, Harvard: Theodosis et al (2024)**
-[pdf](https://crisp.seas.harvard.edu/files/papers/TheodosisBa_SilhouetteLearning_ICASSP23.pdf)
-
-> The authors show that by grouping features together in the sparsity constraint they're better able to learn features which naturally compose together. They test on image datasets but this could be applied to language models too.
 
 🧑‍🍳 🌟 **Scaling Sparse Autoencoders, OpenAI: Gao et al (2024)**
 [pdf](https://cdn.openai.com/papers/sparse-autoencoders.pdf)
@@ -82,6 +74,11 @@ others in the community would benefit from 🤗
 > This seems to work and actually has benefits beyond what addressing shrinkage directly would
 > do so it seems that the Gated SAEs also just provide better encoder representations.
 
+**Group Sparse Autoencoders, Harvard: Theodosis et al (2023)**
+[pdf](https://crisp.seas.harvard.edu/files/papers/TheodosisBa_SilhouetteLearning_ICASSP23.pdf)
+
+> The authors show that by grouping features together in the sparsity constraint they're better able to learn features which naturally compose together. They test on image datasets but this could be applied to language models too.
+
 ## Motivating Results
 
 🌟 **Transformer Visualisation via Dictionary Learning FAIR: Yun et al (2021)**
@@ -89,18 +86,18 @@ others in the community would benefit from 🤗
 
 > An early attempt to break down embeddings into components. A useful paper for understanding how the Interpretability literature fits into previous research.
 
-## Safety Applications
+<!-- ## Safety Applications -->
 
-## Non-Safety Applications
+<!-- ## Non-Safety Applications
 
 Linus - https://x.com/thesephist/status/1747099907016540181
 
-Golden Gate Claude
+Golden Gate Claude -->
 
 ## Training Notes & Intuitions
 
-Circuits Updates Anthropic
-Also DeepMind
+<!-- Circuits Updates Anthropic
+Also DeepMind -->
 
 **Training Tricks for 1-Layer SAEs, Conmy (2023)**
 [blog](https://www.lesswrong.com/posts/fifPCos6ddsmJYahD/my-best-guess-at-the-important-tricks-for-training-1l-saes)
@@ -109,13 +106,13 @@ Also DeepMind
 
 ## Open Source Libraries
 
-🌟 **Dictionary Learning, Cavendish Labs: Ayonrinde et al (2023)**
+<!-- 🌟 **Dictionary Learning, Cavendish Labs: Ayonrinde et al (2023)**
 [code](https://github.com/koayon/dictionary_learning)
 
 > My favourite library for training sparse autoencoders.
 > You can easily use lots of the different approaches to training SAEs and is
 > designed to be a research library where you can define your own encoders, loss functions
-> and activation functions. PRs are welcome!
+> and activation functions. PRs are welcome! -->
 
 **SAE Library, Eleuther: Belrose et al (2024)**
 [code](https://github.com/EleutherAI/sae)
@@ -125,7 +122,7 @@ Also DeepMind
 
 <!-- ## Multimodal -->
 
-## AI Safety
+<!-- ## AI Safety -->
 
 <!-- Explainer -->
 
@@ -149,10 +146,10 @@ Also DeepMind
 
 ## Other
 
-**Using AI to Augment Human Intelligence, Google Brain: Carter & Nielsen (2017)**
-[website](https://distill.pub/2017/aia/)
+**List of Favourite Mech Interp Papers, Neel Nanda (2024)**
+[blog](https://www.alignmentforum.org/posts/NfFST5Mio7BCAQHPA/an-extremely-opinionated-annotated-list-of-my-favourite-1#Sparse_Autoencoders)
 
-> A paper which thinks about how representations that can be manipulated are useful for humans. This is interesting to think about the applications of SAEs beyond enumerative safety.
+> Neel Nanda's list of important papers in Mechanistic Interpretability. There's a section on Sparse Autoencoders which has links to many of the same papers as above but with Neel's short takes on them. Other adjacent MechInterp fields are also covered which may be worth reading.
 
 **How To Report Better SAE Performance, Bostock (2024)**
 [blog](https://www.lesswrong.com/posts/fhffkfJv9zYPeP3uJ/how-to-better-report-sparse-autoencoder-performance)
@@ -179,6 +176,11 @@ Also DeepMind
 > Once you've trained your SAE typically you want to understand what it has learned
 > by checking how interpretable the features are by humans or LLMs. This library allows you to do that
 > and this work introduced the basic framework for automated interpretability.
+
+**Using AI to Augment Human Intelligence, Google Brain: Carter & Nielsen (2017)**
+[website](https://distill.pub/2017/aia/)
+
+> A paper which thinks about how representations that can be manipulated are useful for humans. This is interesting to think about the applications of SAEs beyond enumerative safety.
 
 <!-- ## Approaches We're Excited To See Explored More
 
