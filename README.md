@@ -120,6 +120,10 @@ Also DeepMind -->
 > A highly readable library for distributed training of sparse autoencoders with a great API interface.
 > Mostly uses standard methods and isn't as customisable. More of a training library than a research one.
 
+**SAELens: Joseph Bloom, Curt Tigges and David Chanin (2024)**
+[code](https://github.com/jbloomAus/SAELens)
+
+> A library designed to help researchers train sparse autoencoders, analyze them with a focus on mechanistic interpretability, and generate insights to aid in developing safe and aligned AI systems.
 <!-- ## Multimodal -->
 
 <!-- ## AI Safety -->
