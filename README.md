@@ -148,6 +148,11 @@ Also DeepMind -->
 
 > One of the first open source SAE dictionaries available. Released alongside training code.
 
+**Open Source Sparse Autoencoders for all Residual Stream Layers of GPT2-Small: Bloom (2024)**
+[blog](https://www.lesswrong.com/posts/f9EgfLSurAiqRJySD/open-source-sparse-autoencoders-for-all-residual-stream)
+
+> A set of 12 SAEs for the GPT2 Small residual stream. The post gives a fairly comprehensive write up of the specific methods used.
+
 ## Other
 
 **List of Favourite Mech Interp Papers, Neel Nanda (2024)**
