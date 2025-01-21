@@ -86,6 +86,12 @@ others in the community would benefit from 🤗
 
 > An early attempt to break down embeddings into components. A useful paper for understanding how the Interpretability literature fits into previous research.
 
+**Sparse Autoencoders Find Highly Interpretable Features in Language Models: Cunningham et al (2023)**
+[pdf](https://arxiv.org/abs/2309.08600)
+[code](https://github.com/HoagyC/sparse_coding)
+
+> The first clear demonstration that SAEs using an L1 penalty, rather than other dictionary learning methods, give rise to interpretable features.
+
 <!-- ## Safety Applications -->
 
 <!-- ## Non-Safety Applications
