@@ -126,6 +126,10 @@ Also DeepMind -->
 > A highly readable library for distributed training of sparse autoencoders with a great API interface.
 > Mostly uses standard methods and isn't as customisable. More of a training library than a research one.
 
+**SAELens: Joseph Bloom, Curt Tigges and David Chanin (2024)**
+[code](https://github.com/jbloomAus/SAELens)
+
+> A library designed to help researchers train sparse autoencoders, analyze them with a focus on mechanistic interpretability, and generate insights to aid in developing safe and aligned AI systems.
 <!-- ## Multimodal -->
 
 <!-- ## AI Safety -->
@@ -149,6 +153,11 @@ Also DeepMind -->
 [blog](https://www.alignmentforum.org/posts/AaoWLcmpY3LKvtdyq/some-open-source-dictionaries-and-dictionary-learning)
 
 > One of the first open source SAE dictionaries available. Released alongside training code.
+
+**Open Source Sparse Autoencoders for all Residual Stream Layers of GPT2-Small: Bloom (2024)**
+[blog](https://www.lesswrong.com/posts/f9EgfLSurAiqRJySD/open-source-sparse-autoencoders-for-all-residual-stream)
+
+> A set of 12 SAEs for the GPT2 Small residual stream. The post gives a fairly comprehensive write up of the specific methods used.
 
 ## Other
 
