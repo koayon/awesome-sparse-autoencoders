@@ -130,6 +130,12 @@ Also DeepMind -->
 [code](https://github.com/jbloomAus/SAELens)
 
 > A library designed to help researchers train sparse autoencoders, analyze them with a focus on mechanistic interpretability, and generate insights to aid in developing safe and aligned AI systems.
+
+**Flash-SAE: Potenza (2026)**
+[code](https://github.com/alepot55/flash-sae)
+
+> High-performance Triton kernels for training Top-K Sparse Autoencoders with 13.6x decoder speedup via sparse gather operations and 97% memory reduction. Features Ghost Gradients for dead latent recovery, FP8 quantization support, and full PyTorch autograd compatibility.
+
 <!-- ## Multimodal -->
 
 <!-- ## AI Safety -->
